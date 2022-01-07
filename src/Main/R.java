@@ -21,7 +21,6 @@ public class R {
 	public static int type = 0;
 		
 	public static final View menuView = new MenuView();
-		
 	public static final View insertView = new InsertView();
 	public static final View DeleteView = new DeleteView();
 	public static final View DetailView = new DetailView();

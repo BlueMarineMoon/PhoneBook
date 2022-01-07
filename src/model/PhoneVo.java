@@ -65,10 +65,7 @@ public class PhoneVo {
 		return no + "\t" + name + "\t" + phone + "\t" + address + "\t" + email;
 	}
 
-	public static PhoneVo get(Object[] phonearr) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 	
 	
 	

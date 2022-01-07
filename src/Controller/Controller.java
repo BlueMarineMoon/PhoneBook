@@ -22,7 +22,6 @@ public class Controller {
 			break;
 		case 2 : 
 			R.PhoneArr = dao.selectAll();
-			
 			vc.run(R.ListView); 
 			model.File.InputStream(dao.getListView());
 			break;

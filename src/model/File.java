@@ -17,8 +17,14 @@ public class File {
 		BufferedOutputStream bs = null;
 		try {
 			bs = new BufferedOutputStream(new FileOutputStream("E:\\PGY\\PhoneBook.dat"));
-			String str = list.get(1).getName();
-			bs.write(str.getBytes());
+			String name = list.get(0).getName();
+			bs.write(name.getBytes());
+			String phone = list.get(0).getPhone();
+			bs.write(phone.getBytes());
+			String address = list.get(0).getAddress();
+			bs.write(address.getBytes());
+			String email = list.get(0).getEmail();
+			bs.write(email.getBytes());
 
 		} catch (Exception e) {
 			e.getStackTrace();
